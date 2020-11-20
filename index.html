@@ -41,7 +41,7 @@
                             <div class="input-group-append">
                                 <span class="input-group-text"><i class="fas fa-key"></i></span>
                             </div>
-                            <input type="password" name="" class="form-control input_pass" value=""
+                            <input type="password" name="" class="form-control input_pass" value="" id="password"
                                 placeholder="password">
                         </div>
                         <div class="form-group">
@@ -70,13 +70,15 @@
     <script>
         function loginBtn(){
          var username = document.getElementById("username").value;
-            if(username!= ""){
-                alert(username);
+         var password = document.getElementById("password").value;
+            if(username!= "" && password!=""){
+                
                 localStorage.setItem("username1", username);
                 window.location.href = "home.html";
             }else{
-                alert("User name empty!");
+                alert("Please enter Username and Password.");
             }
+            return;
             // alert(localStorage["key"]);
         }
     </script>

@@ -1,6 +1,8 @@
-https://help.delighted.com/article/576-passing-properties-to-delighted
-https://help.delighted.com/article/540-the-web-platform
+Delighted Url: https://app.delighted.com/signin
+User Name: shri1@mailinator.com
+Password: PSPTPWD@123
 
-https://www.mailinator.com/v3/index.jsp?zone=public&query=shri1#/#inboxpane
-
-https://www.mailinator.com/v3/index.jsp?zone=public&query=shri1#/#inboxpane
+--------------------------------------------------
+Test page URL: https://cheganti.github.io/PSPT-DEV2/
+User Name: testuser
+Password: test123
